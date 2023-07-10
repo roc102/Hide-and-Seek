@@ -50,15 +50,15 @@ const Game = () => {
 
     setMovecount(0);
     const phlanumValue = parseInt(selectedDifficulty) + 2;
-  setPhlanum(phlanumValue);
+    setPhlanum(phlanumValue);
 
-  setDusra(parseInt(selectedTheme));
+    setDusra(parseInt(selectedTheme));
 
-  // Generate random values for x, y, z, and b within the range of available gifts
-  const totalGifts = phlanumValue * phlanumValue;
-  const availableGifts = Array.from({ length: totalGifts }, (_, index) => index + 1);
+    // Generate random values for x, y, z, and b within the range of available gifts
+    const totalGifts = phlanumValue * phlanumValue;
+    const availableGifts = Array.from({ length: totalGifts }, (_, index) => index + 1);
 
-  const getRandomValue = () => {
+    const getRandomValue = () => {
     const randomIndex = Math.floor(Math.random() * availableGifts.length);
     const randomValue = availableGifts.splice(randomIndex, 1)[0];
     return randomValue;
@@ -135,7 +135,7 @@ const Game = () => {
               alt=""
               style={{ width: "100px", height: "100px", opacity: 0.75 }}
               onClick={clicked}
-              onMouseOver={opchange}
+              onMouseOver={sound1}
               onMouseOut={opback}
             />
           </td>
@@ -254,9 +254,9 @@ function losing() {
   // document.getElementById("gamelose").play();
 }
 
-// function sound1() {
-//   document.getElementById("sound1").play();
-// }
+function sound1() {
+  document.getElementById("sound1").play();
+}
 
 
 const endofthegame = () => {
