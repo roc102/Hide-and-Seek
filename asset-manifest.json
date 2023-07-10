@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hide-and-seek/static/css/main.2bd0c80e.css",
-    "main.js": "/hide-and-seek/static/js/main.e5e059da.js",
-    "static/js/787.26cef0db.chunk.js": "/hide-and-seek/static/js/787.26cef0db.chunk.js",
+    "main.js": "/hide-and-seek/static/js/main.edcc9a89.js",
+    "static/js/787.23ea5f6f.chunk.js": "/hide-and-seek/static/js/787.23ea5f6f.chunk.js",
     "static/media/ringsbg.png": "/hide-and-seek/static/media/ringsbg.bbeb7db8283b8f5fa040.png",
     "static/media/earthfromspace.webp": "/hide-and-seek/static/media/earthfromspace.1486e7f14e609f82cb8b.webp",
     "static/media/winningsound.mp3": "/hide-and-seek/static/media/winningsound.636b1967a983d8a5293e.mp3",
@@ -39,11 +39,11 @@
     "index.html": "/hide-and-seek/index.html",
     "static/media/right.webp": "/hide-and-seek/static/media/right.ef105bab3b796a3b10d6.webp",
     "main.2bd0c80e.css.map": "/hide-and-seek/static/css/main.2bd0c80e.css.map",
-    "main.e5e059da.js.map": "/hide-and-seek/static/js/main.e5e059da.js.map",
-    "787.26cef0db.chunk.js.map": "/hide-and-seek/static/js/787.26cef0db.chunk.js.map"
+    "main.edcc9a89.js.map": "/hide-and-seek/static/js/main.edcc9a89.js.map",
+    "787.23ea5f6f.chunk.js.map": "/hide-and-seek/static/js/787.23ea5f6f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bd0c80e.css",
-    "static/js/main.e5e059da.js"
+    "static/js/main.edcc9a89.js"
   ]
 }
