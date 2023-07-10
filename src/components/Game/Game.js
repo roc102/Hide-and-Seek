@@ -178,6 +178,10 @@ const Game = () => {
   const clicked = (e) => {
     if (gameEnded || found === 3) return; // Ignore click if game has ended or all gifts found
     const clickedId = parseInt(e.target.id);
+
+    if (foundGifts.includes(clickedId)) {
+      return;
+    }
     setMovecount((prevMovecount) => prevMovecount + 1);
   
     if (clickedId === b) {
@@ -185,7 +189,9 @@ const Game = () => {
       endofthegame();
       document.getElementById("gamelose").play();
       setTimeout(losing, 2000);
-    } else if (clickedId === x || clickedId === y || clickedId === z) {
+    }  
+    
+     else if (clickedId === x || clickedId === y || clickedId === z) {
       opstop(clickedId);
       if (foundGifts.includes(clickedId)) {
         return;
