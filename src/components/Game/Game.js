@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import "./Game.css";
 import cheeseImage from "../../media/cheese2.png";
@@ -118,7 +118,7 @@ const Game = () => {
     window.location.reload();
   };
 
-//   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   function goback() {
     navigate('/');
