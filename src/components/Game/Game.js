@@ -39,6 +39,7 @@ const Game = () => {
   const [foundGifts, setFoundGifts] = useState([]);
   const [showResults, setShowResults] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [clickedImages, setClickedImages] = useState([]);
   
 
 
@@ -179,7 +180,7 @@ const Game = () => {
     if (gameEnded || found === 3) return; // Ignore click if game has ended or all gifts found
     const clickedId = parseInt(e.target.id);
 
-    if (foundGifts.includes(clickedId)) {
+    if (foundGifts.includes(clickedId) || clickedImages.includes(clickedId)) {
       return;
     }
     setMovecount((prevMovecount) => prevMovecount + 1);
@@ -214,6 +215,7 @@ const Game = () => {
       giftmissed(clickedId);
       setScore((prevScore) => prevScore - 100);
     }
+    setClickedImages((prevClickedImages) => [...prevClickedImages, clickedId]);
   };
   
   
