@@ -49,13 +49,26 @@ const Game = () => {
     const selectedTheme = urlParams.get("theme");
 
     setMovecount(0);
-    setPhlanum(parseInt(selectedDifficulty) + 2);
+    const phlanumValue = parseInt(selectedDifficulty) + 2;
+  setPhlanum(phlanumValue);
 
-    setDusra(parseInt(selectedTheme));
-    setX(4);
-    setY(3);
-    setZ(1);
-    setB(2);
+  setDusra(parseInt(selectedTheme));
+
+  // Generate random values for x, y, z, and b within the range of available gifts
+  const totalGifts = phlanumValue * phlanumValue;
+  const availableGifts = Array.from({ length: totalGifts }, (_, index) => index + 1);
+
+  const getRandomValue = () => {
+    const randomIndex = Math.floor(Math.random() * availableGifts.length);
+    const randomValue = availableGifts.splice(randomIndex, 1)[0];
+    return randomValue;
+  };
+
+  setX(getRandomValue());
+  setY(getRandomValue());
+  setZ(getRandomValue());
+  setB(getRandomValue());
+
   }, []);
 
   
@@ -71,35 +84,6 @@ const Game = () => {
     }
     setIsLoading(false);
   }, [dusra]);  
-
-
-  // useEffect(() => {
-  //   // randomized variables to hide gift
-  //   const total = phlanum * phlanum;
-  //   const selectedValues = new Set();
-  //   const values = [];
-
-  //   while (selectedValues.size < 4) {
-  //     const randomValue = Math.floor(Math.random() * total) + 1;
-  //     if (!selectedValues.has(randomValue)) {
-  //       selectedValues.add(randomValue);
-  //       values.push(randomValue);
-  //     }
-  //   }
-
-  //   const [x, y, z, b] = values;
-
-  //   // Access the values in other functions as needed
-  //   console.log(x, y, z, b);
-
-  //   // Update state variables if necessary
-    // setX(x);
-    // setY(y);
-    // setZ(z);
-    // setB(b);
-
-  //   // Rest of the code...
-  // }, [phlanum]);
   
   useEffect(() => {
     // Code to hide the results section when the component mounts
