@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hide-and-seek/static/css/main.2bd0c80e.css",
-    "main.js": "/hide-and-seek/static/js/main.48c856d1.js",
+    "main.js": "/hide-and-seek/static/js/main.7cedbf9a.js",
     "static/js/787.26cef0db.chunk.js": "/hide-and-seek/static/js/787.26cef0db.chunk.js",
     "static/media/ringsbg.png": "/hide-and-seek/static/media/ringsbg.bbeb7db8283b8f5fa040.png",
     "static/media/earthfromspace.webp": "/hide-and-seek/static/media/earthfromspace.1486e7f14e609f82cb8b.webp",
@@ -39,11 +39,11 @@
     "index.html": "/hide-and-seek/index.html",
     "static/media/right.webp": "/hide-and-seek/static/media/right.ef105bab3b796a3b10d6.webp",
     "main.2bd0c80e.css.map": "/hide-and-seek/static/css/main.2bd0c80e.css.map",
-    "main.48c856d1.js.map": "/hide-and-seek/static/js/main.48c856d1.js.map",
+    "main.7cedbf9a.js.map": "/hide-and-seek/static/js/main.7cedbf9a.js.map",
     "787.26cef0db.chunk.js.map": "/hide-and-seek/static/js/787.26cef0db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bd0c80e.css",
-    "static/js/main.48c856d1.js"
+    "static/js/main.7cedbf9a.js"
   ]
 }
