@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
-import "./Game.css";
+import "../Home/Home.css";
 import cheeseImage from "../../media/cheese2.png";
 import piggyBankImage from "../../media/piggybank.png";
 import bombImage from "../../media/bomb2.png";
@@ -328,6 +328,6 @@ import gameWinAudio from "../../media/winningsound.mp3";
           </div>
         </div>
       );
-  };
+};
 
-  export default Game;
+export default Game;
