@@ -109,3 +109,22 @@ h1{
 #restart:hover{
   opacity: 50%;
 }
+.go-home {
+  text-decoration: none;
+  font-weight: bold;
+  margin-inline: auto;
+  display: block;
+  width: fit-content;
+  color: black;
+}
+
+.go-home span {
+  font-family: 'Rock Salt', cursive;
+  font-size: 2rem;
+  border-radius: 10px;
+  display: block;
+}
+
+.go-home:hover span {
+  rotate: -10deg;
+}
