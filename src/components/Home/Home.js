@@ -12,7 +12,7 @@ import hardImage from '../../media/hard.webp';
 import cheeseImage from '../../media/cheese.webp';
 import ringsImage from '../../media/rings.webp';
 import bankImage from '../../media/bank.webp';
-import bankbg from '../../media/piggybankbg.png'
+import bankbg from '../../media/piggybankbg.png';
 import ringsbg from '../../media/ringsbg.png';
 import cheesebg from '../../media/tngbg2.png';
 import bgImage from "../../media/earthfromspace.webp";

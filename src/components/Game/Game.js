@@ -299,7 +299,7 @@ import gameWinAudio from "../../media/winningsound.mp3";
               <img className="lowertext" src={movesImage} alt="" />
               <h1 id="moves">{movecount}</h1>
             </div>
-            <Link to="/" className="go-home"><span>Return Home</span></Link>
+           
 
             <audio id="sound1">
               <source src={sound1Audio} type="audio/mpeg" />
