@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Hide and Seek - Web Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Cover Page](src/media/coverpagedemo.png)
 
-## Available Scripts
+Welcome to Hide and Seek, a web game built using vanilla JavaScript. In this game you are challenged to find hidden gifts and avoid the dangerous bomb. Test your luck and play this simple and fun game.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Simple and intuitive gameplay
+- Multiple difficulty levels to choose from
+- Various themes to customize the game environment
+- Engaging sound effects for an immersive experience
+- Interactive game interface with visual feedback
+- Responsive design, suitable for different screen sizes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Game levels
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The game contains three levels :-
 
-### `npm test`
+<table>
+    <tr>
+        <td>Game levels</td>
+        <td>Boxes</td>
+        <td>Gifts</td>
+        <td>Bomb</td>
+    </tr>
+    <tr>
+        <td>Easy</td>
+        <td>9</td>
+        <td>3</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Normal</td>
+        <td>16</td>
+        <td>3</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Hard</td>
+        <td>25</td>
+        <td>3</td>
+        <td>1</td>
+    </tr>
+</table>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cheese Theme 🧀
 
-### `npm run build`
+In this theme you will be shown lot a cheese pieces and you have to find hidden Jerry behind them
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="src/media/cheese2.png" height="100">
+<img src="src/media/jerry.png" height="100">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## The Wedding Ring Theme 💍
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In this theme the boxes are the wedding ring boxes you have to find the boxes which have rings in them
 
-### `npm run eject`
+<img src="src/media/closed.png" height="100">
+<img src="src/media/open.png" height="100">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Theme idea credits : [Sindhura Pogarthi](https://github.com/SindhuraPogarthi)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## The Piggybank Theme 🐷
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In this theme you will have to break the piggybanks and find out which of them have coins, beware the bomb
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="src/media/piggybank.png" height="100">
+<img src="src/media/coins.png" height="100">
 
-## Learn More
+## Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Include a link to a live demo of the game, or provide screenshots showcasing the gameplay and interface.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+https://hide-and-seek-weld.vercel.app
+```
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repository:
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/your-username/hide-and-seek-game.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Open the game folder in your preferred code editor.
 
-### Making a Progressive Web App
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Open the `index.html` file in a web browser.
+2. Customize the game difficulty and theme settings.
+3. Click on the "Play" button to start the game.
+4. Click and find on the hidden gifts with best score possible.
+5. Enjoy the game and try to achieve a high score!
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome! If you'd like to contribute to the game, follow these steps:
 
-### Deployment
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your modifications and commit the changes.
+4. Push your branch to your forked repository.
+5. Open a pull request, describing the changes you made.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
