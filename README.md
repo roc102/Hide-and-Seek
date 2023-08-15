@@ -87,7 +87,7 @@ git clone https://github.com/your-username/hide-and-seek-game.git
 
 ## Usage
 
-1. Open the `index.html` file in a web browser.
+1. Open the `src/components/Game/Game.js` file in a web browser.
 2. Customize the game difficulty and theme settings.
 3. Click on the "Play" button to start the game.
 4. Click and find on the hidden gifts with best score possible.
