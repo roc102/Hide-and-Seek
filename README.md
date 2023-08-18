@@ -93,13 +93,3 @@ git clone https://github.com/your-username/hide-and-seek-game.git
 4. Click and find on the hidden gifts with best score possible.
 5. Enjoy the game and try to achieve a high score!
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to the game, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your modifications and commit the changes.
-4. Push your branch to your forked repository.
-5. Open a pull request, describing the changes you made.
-
