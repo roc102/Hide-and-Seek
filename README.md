@@ -74,11 +74,3 @@ Include a link to a live demo of the game, or provide screenshots showcasing the
 ```bash
 https://hide-and-seek-weld.vercel.app
 ```
-
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/hide-and-seek-game.git
-```
