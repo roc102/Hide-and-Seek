@@ -60,9 +60,3 @@ In this theme the boxes are the wedding ring boxes you have to find the boxes wh
 
 Theme idea credits : [Sindhura Pogarthi](https://github.com/SindhuraPogarthi)
 
-## The Piggybank Theme 🐷
-
-In this theme you will have to break the piggybanks and find out which of them have coins, beware the bomb
-
-<img src="src/media/piggybank.png" height="100">
-<img src="src/media/coins.png" height="100">
