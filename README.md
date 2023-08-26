@@ -75,31 +75,3 @@ Include a link to a live demo of the game, or provide screenshots showcasing the
 https://hide-and-seek-weld.vercel.app
 ```
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/hide-and-seek-game.git
-```
-
-2. Open the game folder in your preferred code editor.
-
-## Usage
-
-1. Open the `index.html` file in a web browser.
-2. Customize the game difficulty and theme settings.
-3. Click on the "Play" button to start the game.
-4. Click and find on the hidden gifts with best score possible.
-5. Enjoy the game and try to achieve a high score!
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to the game, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your modifications and commit the changes.
-4. Push your branch to your forked repository.
-5. Open a pull request, describing the changes you made.
-
