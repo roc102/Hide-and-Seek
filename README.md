@@ -66,5 +66,3 @@ In this theme you will have to break the piggybanks and find out which of them h
 
 <img src="src/media/piggybank.png" height="100">
 <img src="src/media/coins.png" height="100">
-
-
