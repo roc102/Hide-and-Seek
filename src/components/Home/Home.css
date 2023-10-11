@@ -109,3 +109,12 @@ h1{
 #restart:hover{
   opacity: 50%;
 }
+
+@media (max-width: 767px) { /* Adjust the max-width value as needed for your specific mobile breakpoint */
+  #title {
+    width: 100%; /* Adjust the width for mobile devices if needed */
+    text-align: center;
+    left: 0;
+    transform: translate(0, -50%);
+  }
+}
