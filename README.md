@@ -60,9 +60,39 @@ In this theme the boxes are the wedding ring boxes you have to find the boxes wh
 
 Theme idea credits : [Sindhura Pogarthi](https://github.com/SindhuraPogarthi)
 
+
 ## The Piggybank Theme 🐷
 
 In this theme you will have to break the piggybanks and find out which of them have coins, beware the bomb
 
 <img src="src/media/piggybank.png" height="100">
 <img src="src/media/coins.png" height="100">
+
+
+## Installation and Usage Guide
+
+### Fork the Repository
+
+Click the "Fork" button at the top right corner of the page. This will create a copy of the repository under your GitHub account.
+
+### Installation
+
+To run the Project locally, follow these steps:
+
+1. Clone the Repository
+
+   ```bash
+   git clone https://github.com/your-username/hide-and-seek.git
+   ```
+
+2. Navigate to the project directory
+
+   ```bash
+   cd hide-and-seek
+   ```
+
+3. Install the dependencies using npm
+
+   ```bash
+   npm install
+   ```
