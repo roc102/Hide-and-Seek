@@ -1,6 +1,6 @@
 # Hide and Seek - Web Game
 
-![Cover Page](src/media/coverpagedemo.png)
+![App Screenshot](demo.gif)
 
 Welcome to Hide and Seek, a web game built using vanilla JavaScript. In this game you are challenged to find hidden gifts and avoid the dangerous bomb. Test your luck and play this simple and fun game.
 
@@ -60,14 +60,12 @@ In this theme the boxes are the wedding ring boxes you have to find the boxes wh
 
 Theme idea credits : [Sindhura Pogarthi](https://github.com/SindhuraPogarthi)
 
-
 ## The Piggybank Theme 🐷
 
 In this theme you will have to break the piggybanks and find out which of them have coins, beware the bomb
 
 <img src="src/media/piggybank.png" height="100">
 <img src="src/media/coins.png" height="100">
-
 
 ## Installation and Usage Guide
 
